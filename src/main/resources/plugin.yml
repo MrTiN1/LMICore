@@ -1,0 +1,11 @@
+name: LniCore
+version: 1.0
+main: ru.lni.core.LniCore
+api-version: 1.20
+depend: [LuckPerms]
+commands:
+  lni:
+    description: Выдать статус LNI
+    permission: lni.admin
+  head:
+    description: Получить свою голову
